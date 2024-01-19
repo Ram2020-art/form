@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>simple form </title>
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="hero">
+    <div class="form-box">
+        <div class="button-box">
+           <div id="btn"></div>
+        <button type="button" class="toggle-btn" onclick="login()">Login</button>     
+        <button type="button" class="toggle-btn" onclick="register()">Register</button>  
+        </div>
+        <form action="" id="login" class="input-group">
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="text" class="input-field" placeholder="Password" required>
+        <input type="checkbox" class="check-box"><span>remember me</span>
+        <button type="submit" class="submit">Log In</button>
+        </form>
+        
+         <form action="" id="register" class="input-group">
+        <input type="text" class="input-field" placeholder="User Id" required>
+        <input type="email" class="input-field" placeholder="e-mail Id" required>
+        <input type="text" class="input-field" placeholder="Password" required>
+        <input type="checkbox" class="check-box"><span>agree to terms and condition</span>
+        <button type="submit" class="submit">Register </button>
+        </form>
+    </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2022-2024 Ram Mijar. All rights reserved. <a href="https://www.rammijar.com.np/">www.rammijar.com.np</a></p>
+  </footer>
+  
+<!-- partial -->
+  <script  src="./js/script.js"></script>
+
+</body>
+</html>
